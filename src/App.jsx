@@ -7,7 +7,7 @@ import Socials from "./components/Socials";
 
 function App() {
   return (
-    <div className="App px-4 py-16 w-full h-auto md:px-36">
+    <div className="font-sans App px-4 py-16 w-full h-auto md:px-36">
       <Profile />
       <main id="links_section" className="mb-4h">
         <Button
@@ -16,7 +16,7 @@ function App() {
           text="Twitter Link"
         />{" "}
         <Button
-          id="btn_zuri"
+          id="btn__zuri"
           href="https://training.zuri.team/"
           text="Zuri Team"
         />{" "}
@@ -27,7 +27,7 @@ function App() {
           title="Find amazing books here about design and coding"
         />
         <Button
-          id="book_python"
+          id="book__python"
           href="https://books.zuri.team/python-for-beginners?ref_id=Lekanjoy"
           text="Python Books"
         />
@@ -38,7 +38,7 @@ function App() {
           title="Be confident about who you pay to work!"
         />
         <Button
-          id="book_design"
+          id="book__design"
           href="https://books.zuri.team/design-rules"
           text="Design Books"
         />

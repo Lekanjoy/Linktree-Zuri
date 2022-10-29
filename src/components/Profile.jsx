@@ -7,7 +7,7 @@ const Profile = () => {
   return (
     <header className="relative w-full flex items-center justify-center flex-col">
       <img
-        id="profile_img"
+        id="profile__img’"
         src={image}
         className="mb-6"
         alt="Profile Image of User"

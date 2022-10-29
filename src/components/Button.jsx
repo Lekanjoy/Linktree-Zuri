@@ -8,7 +8,7 @@ const Button = ({ text, id, href, title }) => {
       href={href}
       target="parent"
       className="text-[#101828] text-center font-medium text-sm rounded-[8px]
-       mb-6 flex items-center justify-center h-[68px] bg-[#EAECF0] md:h-[60px]"
+       mb-6 flex items-center justify-center h-[68px] bg-[#EAECF0] md:h-[76px] md:font-semibold"
     >
       {text}
     </a>
