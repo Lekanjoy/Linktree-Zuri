@@ -4,12 +4,12 @@ import ingressive from '../assets/I4G.svg'
 
 const Footer = () => {
   return (
-    <footer className="hidden justify-between pt-9 border-t md:flex">
-      <img src={zuri} alt="Zuri Logo" className="max-w-[187px]" />
-      <p className="font-medium text-[#667085]">
+    <footer className="flex flex-col gap-y-4 w-full  justify-between pt-9 border-t md:flex md:flex-row">
+      <img src={zuri} alt="Zuri Logo" className="w-[140px] md:w-[185px]" />
+      <p className="font-medium text-sm text-[#667085] md:text-base">
         HNG Internship 9 Frontend Task
       </p>
-      <img src={ingressive} alt="Zuri Logo" className="max-w-[187px]" />
+      <img src={ingressive} alt="Zuri Logo" className="w-[99px] md:w-[132px]"/>
     </footer>
   );
 };
